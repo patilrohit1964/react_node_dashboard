@@ -1,0 +1,120 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+/* nav styling of nav.js file */
+ul.nav-bar{
+    list-style-type: none;
+    display: flex;
+    background-color: skyblue;
+    justify-content: center;
+    font-size: 20px;
+}
+ul.nav-bar a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+}
+
+/* form styling of signUp.js file */
+.form{
+    width: 40%;
+    text-align: center;
+    margin:5rem auto;
+    background-color: #ddd;
+    padding: 15px 0;
+}
+.form input{
+    display: block;
+    padding: 10px;
+    width: 60%;
+    margin:20px auto;
+    border: 2px solid skyblue;
+    outline: none;
+}
+.form button{
+    outline: none;
+    padding: 10px;
+    width: 40%;
+    background-color: skyblue;
+    font-size: 15px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+}
+/* login styling of login.js */
+.loginform{
+    width: 40%;
+    text-align: center;
+    margin:5rem auto;
+    background-color: #ddd;
+    padding: 15px 0;
+}
+.loginform input{
+    display: block;
+    padding: 10px;
+    width: 60%;
+    margin:20px auto;
+    border: 2px solid skyblue;
+    outline: none;
+}
+.loginform button{
+    outline: none;
+    padding: 10px;
+    width: 40%;
+    background-color: skyblue;
+    font-size: 15px;
+    cursor: pointer;
+}
+/* error message style */
+.error{
+    color: red;
+    margin-top: -20px;
+    display: block;
+    margin-left: -90px;
+}
+/* styling show product js */
+.showPr{
+    text-align: center;
+    padding: 15px 0;
+    width: 80%;
+    margin: auto;
+}
+.showPr ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.showPr ul button{
+    cursor: pointer;
+    padding:8px 8px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.showPr li{
+    padding:12px 0;
+    border: 2px solid skyblue;
+    width:150px; 
+}
+.showPr .search{
+    display: inline-block;
+    width: 50%;
+    padding: 8px;
+    font-size:15px;
+    margin: 15px 0;
+}
+/* user rp */
+.rp li{
+    width: 100%;
+}
+/* footer styling of footer.js file */
+.footer{
+    position: fixed;
+    background-color: skyblue;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 2px 0;
+}
